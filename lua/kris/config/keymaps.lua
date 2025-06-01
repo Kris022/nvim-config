@@ -16,3 +16,8 @@ vim.keymap.set("n", "<leader>tx", "<cmd>tabclose<CR>", { desc = "Close a tab" })
 vim.keymap.set("n", "<leader>tn", "<cmd>tabn<CR>", { desc = "Go the the next tab" })
 vim.keymap.set("n", "<leader>tp", "<cmd>tabp<CR>", { desc = "Go the the previous tab" })
 vim.keymap.set("n", "<leader>tf", "<cmd>tabnew %<CR>", { desc = "Open current buffer in new tasb" })
+
+-- window management
+vim.keymap.set("n", "<leader>sh", "<C-w>s", { desc = "Split horizontally" })
+vim.keymap.set("n", "<leader>sv", "<C-w>v", { desc = "Split vertically" })
+vim.keymap.set("n", "<leader>sx", "<cmd>close<CR>", { desc = "Close split" })
